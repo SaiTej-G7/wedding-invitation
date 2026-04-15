@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fdfaf6;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🚫 PREVENT HORIZONTAL SCROLL */
+html, body {
+  overflow-x: hidden;
+}
+
+/* FONT */
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ===============================
+   ⏳ LOADER (GLOBAL)
+================================= */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fafafa;
+  z-index: 9999;
+}
+
+/* TEXT */
+.loader h1 {
+  font-size: 6rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 4px;
+  color: #c5a47e;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .loader h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* REMOVE DEFAULT LINK BLUE */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .section-light,
+  .section-cream {
+    padding: 50px 0;
+  }
+}

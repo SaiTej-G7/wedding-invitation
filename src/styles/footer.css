@@ -1,0 +1,17 @@
+.footer {
+  background:#f4efea;
+  color:#0F0F0F  ;
+}
+
+/* TEXT */
+.footer-made span {
+  letter-spacing: 2px;
+  font-size: 14px;
+   color: #c5a47e;
+}
+
+/* HEART ICON */
+.footer-heart {
+  color: #dea96d;
+  fill: #c5a47e;
+}

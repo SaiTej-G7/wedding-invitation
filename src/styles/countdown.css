@@ -1,0 +1,103 @@
+.section-cream {
+  padding: 70px 0;
+  background: #fdfaf6;
+}
+
+/* SUBTITLE  */
+.countdown-subtitle {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+/* TITLE */
+.countdown-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .countdown-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* FLORAL */
+.countdown-floral {
+  width: 180px;              /* base size */
+  max-width: 60%;            /* prevents overflow on small screens */
+  height: auto;              /* keeps aspect ratio */
+  margin: 10px auto;
+  opacity: 0.8;
+   animation: floatSoft 4s ease-in-out infinite;
+}
+
+@media (min-width: 768px) {
+  .countdown-floral {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .countdown-floral {
+    width: 260px;
+  }
+}
+
+@keyframes floatSoft {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* TIMER BOX */
+.countdown-box {
+  text-align: center;
+  min-width: 80px;
+}
+
+/* NUMBERS */
+.countdown-number {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .countdown-number {
+    font-size: 4.5rem;
+  }
+}
+
+/* LABEL */
+.countdown-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* QUOTE */
+.countdown-quote {
+  margin-top: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+    font-style: italic;
+}
+
+.quote-text {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.quote-author {
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}

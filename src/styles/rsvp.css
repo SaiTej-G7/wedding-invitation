@@ -1,0 +1,141 @@
+.section-light {
+  padding: 70px 0;
+  background: #fafafa;
+}
+
+/* ===============================
+   💌 RSVP (LUXURY MATCH SYSTEM)
+================================= */
+
+/* SUBTITLE */
+.rsvp-subtitle {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+/* TITLE */
+.rsvp-title {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .rsvp-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* FORM */
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* INPUTS (UPGRADED TYPOGRAPHY) */
+.rsvp-input,
+.rsvp-textarea {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 14px 5px;
+  font-size: 16px; /* 🔥 increased */
+  font-family: 'Playfair Display', serif;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  transition: all 0.3s ease;
+   letter-spacing: 1px;
+}
+
+/* FOCUS */
+.rsvp-input:focus,
+.rsvp-textarea:focus {
+  border-bottom: 1px solid #c5a47e;
+}
+
+/* PLACEHOLDER */
+.rsvp-input::placeholder,
+.rsvp-textarea::placeholder {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+/* RADIO GROUP */
+.rsvp-radio-group {
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* LABEL */
+.rsvp-label {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+/* RADIO STYLE */
+.rsvp-radio-group label {
+  margin-right: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* CUSTOM RADIO SIZE */
+.rsvp-radio-group input {
+  width: 18px;
+  height: 18px;
+  accent-color: #c5a47e; /* 🔥 modern styling */
+  cursor: pointer;
+}
+
+/* BUTTON (ROUNDED PILL PREMIUM) */
+.rsvp-btn {
+  margin-top: 30px;
+  background: #c5a47e;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px; /* 🔥 pill shape */
+  letter-spacing: 3px;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.rsvp-btn:hover {
+  background: #b89670;
+  transform: translateY(-2px);
+}
+
+/* THANK YOU */
+.rsvp-thankyou {
+  font-size: 20px;
+  margin-top: 40px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 📱 MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+  .rsvp-btn {
+    padding: 10px 26px;   /* 🔥 slightly smaller */
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}
+

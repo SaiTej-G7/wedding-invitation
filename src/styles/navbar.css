@@ -1,0 +1,101 @@
+.custom-navbar {
+  padding: 20px 0;
+  transition: all 0.4s ease;
+  background: transparent;
+}
+
+/* TEXT WHITE ON HERO */
+.custom-navbar .nav-link-custom,
+.custom-navbar .logo {
+  color: white;
+}
+
+.custom-navbar.scrolled {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+}
+
+/* 🔥 TEXT DARK WHEN SCROLLED */
+.custom-navbar.scrolled .nav-link-custom,
+.custom-navbar.scrolled .logo,
+.custom-navbar.scrolled .menu-btn  {
+  color: #222 !important;
+}
+
+/* LOGO */
+.logo {
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.logo span {
+  color: #c5a47e !important;
+}
+
+/* NAV LINKS */
+.nav-link-custom {
+  text-decoration: none !important; /* 🔥 REMOVE UNDERLINE */
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white !important;
+  font-family: 'Inter', sans-serif;
+}
+
+/* REMOVE BLUE LINK DEFAULT */
+.nav-link-custom:visited,
+.nav-link-custom:active {
+  color: white;
+}
+
+
+/* MOBILE BUTTON */
+.menu-btn {
+  font-size: 22px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+/* 🔥 GLASS EFFECT MENU */
+.mobile-menu {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.15); /* glass */
+  backdrop-filter: blur(12px);
+
+  padding: 25px 0;
+
+  display: flex;
+  flex-direction: column; /* 🔥 vertical */
+  align-items: center;
+  gap: 20px;
+
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/* LINKS */
+.mobile-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* 🔥 WHEN SCROLLED (CRITICAL FIX) */
+.custom-navbar.scrolled .mobile-menu {
+  background: rgba(0, 0, 0, 0.3);  /* dark glass */
+  backdrop-filter: blur(10px);
+}
+
+/* 🔥 TEXT COLOR FIX */
+.custom-navbar.scrolled .mobile-menu a {
+  color: white !important;
+}

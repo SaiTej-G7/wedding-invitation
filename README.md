@@ -1,70 +1,237 @@
-# Getting Started with Create React App
+# 💍 Vamsi ❤️ Jayasree Wedding Invitation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **modern, ultra-premium, fully responsive wedding invitation website** built using **React.js + Bootstrap 5**, designed with a luxury aesthetic and smooth user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+> *(Add your Vercel link after deployment)*
+> 🔗 https://your-wedding.vercel.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Key Features
 
-### `npm test`
+### 🎬 Hero Section
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Full-screen cinematic landing section
+* Elegant typography with couple names
+* Smooth overlay + luxury color tones
+* Call-to-action RSVP button
 
-### `npm run build`
+### ⏳ Countdown Timer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Real-time countdown to wedding date
+* Responsive layout for all devices
+* Elegant typography + spacing system
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 💖 Our Story (Timeline)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Beautiful vertical timeline layout
+* Alternating left-right alignment
+* Scroll-based reveal animations
+* Romantic storytelling content
 
-### `npm run eject`
+### 📍 Wedding Details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Structured event information:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  * Wedding Date
+  * Ceremony Time
+  * Reception Details
+  * Venue Location
+* Integrated Google Maps
+* Icon-based elegant UI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🖼️ Gallery
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Responsive image grid (Bootstrap-based)
+* Hover zoom effect
+* Lightbox preview on click
+* Optimized for mobile performance
 
-## Learn More
+### 💌 RSVP System
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Clean, minimal form UI (luxury style)
+* Fields:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  * Name
+  * Phone Number
+  * Attendance (Yes/No)
+  * Message
+* 📲 WhatsApp Integration:
 
-### Code Splitting
+  * Automatically opens WhatsApp with pre-filled RSVP message
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🎨 UI/UX Design
 
-### Analyzing the Bundle Size
+* Digital Luxe design system
+* Soft palette: Ivory, Gold, Sage tones
+* Serif typography (Playfair Display)
+* Consistent spacing & layout system
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 📱 Fully Responsive
 
-### Making a Progressive Web App
+* Mobile-first design approach
+* Optimized for:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  * Mobile phones
+  * Tablets
+  * Laptops & desktops
 
-### Advanced Configuration
+### ✨ Animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* ScrollReveal-based animations
+* Smooth fade + translate effects
+* Mobile-optimized performance
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🛠️ Tech Stack
 
-### `npm run build` fails to minify
+| Technology   | Usage                                          |
+| ------------ | ---------------------------------------------- |
+| React.js     | UI development (Functional Components + Hooks) |
+| Bootstrap 5  | Layout & responsiveness                        |
+| Custom CSS   | Advanced styling & animations                  |
+| Lucide React | Icon library                                   |
+| Vercel       | Deployment                                     |
+| WhatsApp API | RSVP integration                               |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📁 Folder Structure
+
+```
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Countdown.jsx
+│   ├── Details.jsx
+│   ├── Story.jsx
+│   ├── Gallery.jsx
+│   ├── RSVP.jsx
+│   ├── Footer.jsx
+│   └── ScrollReveal.jsx
+│
+├── styles/
+│   ├── global.css
+│   ├── navbar.css
+│   ├── hero.css
+│   ├── countdown.css
+│   ├── details.css
+│   ├── story.css
+│   ├── gallery.css
+│   ├── rsvp.css
+│   └── animations.css
+│
+├── assets/
+│   ├── images
+│   └── icons
+│
+├── App.jsx
+└── index.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/yourusername/wedding-site.git
+cd wedding-site
+```
+
+### 2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+### 3️⃣ Run Locally
+
+```
+npm run dev
+```
+
+---
+
+## 🚀 Deployment (Vercel)
+
+1. Push project to GitHub
+2. Go to https://vercel.com
+3. Import your repository
+4. Click **Deploy**
+
+---
+
+## 📲 WhatsApp RSVP Integration
+
+The RSVP form sends user details via WhatsApp:
+
+**Message includes:**
+
+* Name
+* Phone number
+* Attendance status
+* Personal message
+
+---
+
+## 🔍 SEO Optimization
+
+* Meta tags added in `index.html`
+* Open Graph tags for social sharing
+* Mobile viewport optimized
+* Fast loading assets
+
+---
+
+## 🎯 Performance Optimization
+
+* Lazy loading images
+* Optimized animations for mobile
+* Reduced layout shift
+* Efficient component structure
+
+---
+
+## 🔮 Future Enhancements
+
+* 🔐 Firebase backend (store RSVP data)
+* 👤 User login system
+* 📊 Admin dashboard (view RSVPs)
+* 📸 Guest photo upload
+* 🎵 Background music
+* 🌐 Custom domain integration
+
+---
+
+## ❤️ Credits
+
+Designed & Developed with love by
+**Sai Teja Gollapalli**
+
+---
+
+## 📜 License
+
+This project is for personal use (wedding invitation).
+Feel free to customize for your own events only through contact me.
+
+---
+
+## 🌟 Final Note
+
+This project showcases:
+
+* Modern frontend skills
+* UI/UX design thinking
+* Real-world deployment readiness
+
+---
