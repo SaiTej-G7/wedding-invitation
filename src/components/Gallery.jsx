@@ -75,6 +75,7 @@ export default function Gallery() {
                       src={img.src}
                       alt={img.alt}
                       className="gallery-img"
+                      loading="lazy"
                     />
                   </div>
                 </ScrollReveal>

@@ -41,7 +41,7 @@
 
 /* HOVER (premium feel) */
 .details-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 /* ICON */

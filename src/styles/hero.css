@@ -60,6 +60,7 @@
   font-style: italic;
   max-width: 90%; /* 🔥 prevents overflow */
   word-wrap: break-word;
+  animation: fadeUp 1.2s ease;
 }
 
 @media (min-width: 768px) {

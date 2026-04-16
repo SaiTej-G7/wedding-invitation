@@ -69,3 +69,8 @@ a:hover {
     padding: 50px 0;
   }
 }
+
+.hero-btn,
+.rsvp-btn {
+  min-height: 44px;
+}

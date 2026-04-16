@@ -28,8 +28,8 @@
 .gallery-card {
   overflow: hidden;
   border-radius: 8px;
-  cursor: pointer;
   position: relative;
+    cursor: zoom-in;
 }
 
 /* IMAGE */

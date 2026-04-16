@@ -35,7 +35,7 @@ Message: ${formData.message || "No message"}
     // ✅ STEP 2: Delay WhatsApp Redirect (3 sec)
     setTimeout(() => {
       window.open(url, "_blank");
-    }, 3000);
+    }, 2000);
   };
 
   return (
