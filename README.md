@@ -156,7 +156,7 @@ npm install
 ### 3️⃣ Run Locally
 
 ```
-npm run dev
+npm start
 ```
 
 ---
